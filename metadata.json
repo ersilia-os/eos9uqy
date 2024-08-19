@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos9uqy",
+    "Slug": "cheese-similarity-search",
+    "Status": "In progress",
+    "Title": "CHEESE similarity search",
+    "Description": "Perform similarity search with the CHEESE embedding-based server, which takes into account 2D as well as 3D similarities (electrostatics and shape) and queries against ZINC15 and Enamine REAL. This model requires an API key.",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,8 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": "Similarity",
+    "Publication": "https://cheese-docs.deepmedchem.com/index-news/",
+    "Source Code": "https://cheese-docs.deepmedchem.com/tutorial_api_python/",
+    "License": "GPL-3.0-only"
 }
