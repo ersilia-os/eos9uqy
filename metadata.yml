@@ -1,17 +1,20 @@
-Identifier: ""
-Slug: ""
-Title: ""
-Description: ""
-Mode: ""
-Input: ""
-Input Shape: ""
-Task: ""
-Output: ""
-Output Type: ""
-Output Shape: ""
-Interpretation: ""
+Identifier: eos9uqy
+Slug: cheese-sampler
+Title: CHEESE similarity search with multiple similarity measures and against various databases
+Description: CHEESE is a chemical embeddings search engine based on approximate nearest neighbors. It supports multiple similarity measures and can search against various databases, including ENAMINE REAL, ZINC, and others.
+  Among the similarity measures, CHEESE supports the classical Morgan fingerprints as well as 3D shape and electrostatics similarities.
+  The search engine is available online. This model from the Ersilia Model Hub is intended to be used a sampler for the CHEESE search engine, where the user can input a compound and get a list of similar compounds as output.
+  The database used for the search, the similarity measure, and the filters are randomly chosen for each query.
+Mode: Online
+Input: Compound
+Input Shape: Single
+Task: Similarity
+Output: Compound
+Output Type: String
+Output Shape: List
+Interpretation: A list of up to 100 similar compounds to the input compound.
 Tag: 
-  - ""
-Publication: ""
-Source Code: ""
-License: ""
+  - Similarity
+Publication: https://chemrxiv.org/engage/chemrxiv/article-details/67250915f9980725cfcd1f6f
+Source Code: https://cheese.deepmedchem.com/
+License: GPL-3.0-or-later
