@@ -102,6 +102,6 @@ assert input_len == output_len
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["smiles-{0}".format(str(i).zfill(3)) for i in range(NUMBER_OF_COMPOUNDS)])
+    writer.writerow(["smiles_{0}".format(str(i).zfill(2)) for i in range(NUMBER_OF_COMPOUNDS)])
     for o in outputs:
         writer.writerow(o)
